@@ -1,0 +1,62 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: ¦ÌVision V5.23.0.0
+Copyright (C) 2017 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: fiot-lab fiot-lab fiot-lab Flex license: MDK-ARM Standard Cortex-M only: 1 user(s) (mdk_cm_std) Support: Aug 2020
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Standard Cortex-M only: 1 user(s)  Version: 5.23
+Toolchain Path:  D:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 4 (build 422)
+Assembler:       Armasm.exe V5.06 update 4 (build 422)
+Linker/Locator:  ArmLink.exe V5.06 update 4 (build 422)
+Library Manager: ArmAr.exe V5.06 update 4 (build 422)
+Hex Converter:   FromElf.exe V5.06 update 4 (build 422)
+CPU DLL:         SARMCM3.DLL V5.23
+Dialog DLL:      DARMCM1.DLL V1.17.0.0
+Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V2.0.18.0
+Dialog DLL:      TARMCM1.DLL V1.12.0.0
+ 
+<h2>Project:</h2>
+D:\FiotLabWeixian\29-WaterDevice\hc32l17x_ddl_Rev1.0.3\1\hc32l17x_ddl_BC28\example\template\MDK\template.uvprojx
+Project File Date:  10/29/2020
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 4 (build 422)', folder: 'D:\Keil_v5\ARM\ARMCC\Bin'
+Build target 'FiotDecWater_Release'
+compiling hc32_bc35.c...
+..\..\..\midware\HC32_NBIOT\hc32_bc35.c(2651): warning:  #767-D: conversion from pointer to smaller integer
+  						ret = OceanConnect_cmd_parser((unsigned char *)tmpbuf,(uint16_t)gBc35Nngr.len);
+..\..\..\midware\HC32_NBIOT\hc32_bc35.c(867): warning:  #177-D: function "Bc35UerSetPsmTime"  was declared but never referenced
+  static int Bc35UerSetPsmTime(uint8_t SetPsmTime){
+..\..\..\midware\HC32_NBIOT\hc32_bc35.c(1521): warning:  #177-D: function "Bc35UserGetQlwServ"  was declared but never referenced
+  static int Bc35UserGetQlwServ(void){
+..\..\..\midware\HC32_NBIOT\hc32_bc35.c: 3 warnings, 0 errors
+linking...
+Program Size: Code=45220 RO-data=688 RW-data=896 ZI-data=5632  
+FromELF: creating hex file...
+".\output\release\template.axf" - 0 Error(s), 3 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.5.7.0.pack
+                ARM::CMSIS:CORE:5.4.0
+                CMSIS (Cortex Microcontroller Software Interface Standard)
+   * Component: CORE Version: 5.4.0
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\_FiotDecWater_Release
+  D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.7.0\CMSIS\Core\Include
+  D:\Keil_v5\ARM\PACK\HDSC\HC32L17X\1.0.1\Device\Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:5.4.0
+Build Time Elapsed:  00:00:01
+</pre>
+</body>
+</html>
